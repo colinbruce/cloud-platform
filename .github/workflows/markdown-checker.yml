@@ -11,3 +11,4 @@ jobs:
         use-verbose-mode: 'yes'
         base-branch: main
         folder-path: 'runbooks/source'
+        file-extension: .erb
