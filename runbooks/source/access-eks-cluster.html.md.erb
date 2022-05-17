@@ -8,6 +8,9 @@ review_in: 3 months
 
 # Access EKS cluster
 
+[Create test cluster][create-test-cluster]
+[Create test cluster][create-test-cluster]
+
 In order for kubectl to find and access an EKS cluster, it needs a kubeconfig file. 
 
 When you create a new EKS cluster, the kubeconfig file is created locally within the [cloud-platform-eks/files/][files-folder], named: `files/kubeconfig_${WorkspaceName}` This file is only available for the user who created the cluster.
@@ -98,3 +101,4 @@ users:
 Save the kubeconfig with a filename (eg.: ~/.kube/config_eks) and use it to access the EKS cluster.
 
 [files-folder]: https://github.com/ministryofjustice/cloud-platform-infrastructure/tree/main/terraform/aws-accounts/cloud-platform-aws/vpc/eks
+[create-test-cluster]: create-cluster.html#create-a-new-cluster
