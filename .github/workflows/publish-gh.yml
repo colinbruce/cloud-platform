@@ -17,6 +17,7 @@ jobs:
         name: site
         path: docs
   deploy:
+      needs: build
       runs-on: ubuntu-latest
       steps:
       - name: Install rsync
