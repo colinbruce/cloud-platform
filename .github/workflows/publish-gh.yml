@@ -1,12 +1,6 @@
 name: Publish runbooks
 
-on:
-  push:
-    branches:
-      - "test"
-      - "add-md-check"
-    paths:
-      - "runbooks/**"
+on: [push]
 
 jobs:
   run:
