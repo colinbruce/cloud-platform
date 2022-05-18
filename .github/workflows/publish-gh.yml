@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "test"
+      - "add-md-check"
     paths:
       - "runbooks/**"
 
