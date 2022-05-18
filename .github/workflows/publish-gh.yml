@@ -13,7 +13,8 @@ jobs:
       run: cd runbooks; bundle exec middleman build --build-dir docs
     - name: Install rsync
       run: |
-        apt-get update && apt-get install -y rsync
+        sudo apt-get update && apt-get install -y rsync
+        which rsync
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4.3.3
       with:
