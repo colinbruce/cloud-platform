@@ -21,4 +21,4 @@ jobs:
         token: ${{ secrets.PUBLISHING_GIT_TOKEN }}
         repository-name: ministryofjustice/cloud-platform-runbooks
         branch: gh-test # The branch the action should deploy to.
-        folder: docs # The folder the action should deploy.
+        folder: runbooks/docs # The folder the action should deploy.
